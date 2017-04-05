@@ -9,13 +9,31 @@
 
 .App-header {
   background-color: #222;
-  height: 150px;
+  height: 40px;
   padding: 20px;
   color: white;
 }
 
 .App-intro {
   font-size: large;
+}
+
+.rounded-image {
+  border-radius: 50%;
+  float: left;
+  width: 50px;
+}
+
+.user-name{
+  float: right;
+}
+
+.photo{
+  display: block;
+  margin: 50px auto;
+  margin-bottom: 10px;
+  width: 100%;
+  height: 100%;
 }
 
 @keyframes App-logo-spin {
